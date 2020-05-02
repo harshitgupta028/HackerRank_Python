@@ -1,4 +1,3 @@
-
 l,f=input().split()
 
 P=list(map(int, input().split()))
