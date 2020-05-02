@@ -26,11 +26,10 @@ Sample Output:
 Explanation:
 You gain  unit of happiness for elements  and  in set . You lose  unit for  in set . The element  in set  does not exist in the array so it is not included in the calculation.
 Hence, the total happiness is 2-1=1.
-*/
-
 =======================================================================================================================================================================
 Sollution
 ===========================================================================================================================================================================
+*/
 l,f=input().split()
 
 P=list(map(int, input().split()))
