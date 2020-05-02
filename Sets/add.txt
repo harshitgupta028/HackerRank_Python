@@ -50,10 +50,10 @@ Sample Output
 Explanation
 
 UK and France repeat twice. Hence, the total number of distinct country stamps is 5 (five).
-*/
 ====================================================================================================================
 Sollution
 ==========================================================================================================================
+*/
 i = int(input())
 st = set()
 for re in range(i-1):

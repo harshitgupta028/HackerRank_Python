@@ -1,3 +1,4 @@
+/*
 .remove(x)
 This operation removes element x from the set.
 If element x does not exist, it raises a KeyError.
@@ -88,5 +89,37 @@ Sample Output
 
 Explanation:
 After completing these 10 operations on the set([4]), we get set. Hence, the sum is 4 .
-
 Note: Convert the elements of set s to integers while you are assigning them. To ensure the proper input of the set, we have added the first two lines of code to the editor.
+========================================================================================================================================================================
+Sollution
+===========================================================================================================================================================================
+*/
+# cook your dish here
+n = int(input())
+s = set(map(int, input().split()))
+n = int(input())
+for t in range(n):
+    
+    i = input().split()
+    #print(i)
+    
+    try:
+        if i[0] == 'pop':
+            q = i[0]
+        else:
+            q = i[0]
+            k = i[1]
+            k=int(k)
+    except:
+        None
+        
+    if q == 'pop':
+        s.pop()
+    elif q == 'remove':
+        s.remove(k)
+    elif q == 'discard':
+        s.discard(k) 
+if len(s) is 0:
+    print("0") 
+else:
+    print(sum(s))
