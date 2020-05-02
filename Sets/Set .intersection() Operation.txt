@@ -1,4 +1,6 @@
-/*
+
+QUESTION:
+
 .intersection()
 The .intersection() operator returns the intersection of a set and the set of elements in an iterable.
 Sometimes, the & operator is used in place of the .intersection() operator, but it only operates on the set of elements in set.
@@ -54,16 +56,3 @@ Explanation:
 The roll numbers of students who have both subscriptions:
  1,2,3,4,6 and 8.
 Hence, the total is 5 students.
-==================================================================================================
-Sollution
-============================================================================================================
-*/
-a = int(input())
-
-b = set(map(int, input().split()))
-
-c = int(input())
-
-d = set(map(int, input().split()))
-
-print(len(b&d))

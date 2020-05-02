@@ -1,4 +1,6 @@
-/*
+
+QUESTION:
+
 .difference()
 The tool .difference() returns a set with all the elements from the set that are not in an iterable.
 Sometimes the - operator is used in place of the .difference() tool, but it only operates on the set of elements in set.
@@ -55,16 +57,3 @@ Explanation
 The roll numbers of students who only have English newspaper subscriptions are:
 4,5,7 and 9.
 Hence, the total is  students.
-===============================================================================================================
-Sollution
-=================================================================================================================
-*/
-a = int(input())
-
-b = set(map(int, input().split()))
-
-c = int(input())
-
-d = set(map(int, input().split()))
-
-print(len(b-d))
