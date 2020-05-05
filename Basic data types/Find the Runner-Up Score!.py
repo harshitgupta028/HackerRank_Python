@@ -1,3 +1,4 @@
+
 inp = int(input())
 
 h = set(map(int, input().split()))
