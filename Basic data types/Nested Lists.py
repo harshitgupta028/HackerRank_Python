@@ -22,6 +22,5 @@ for ch in range(i,len(student)):
         ans.append(student[ch][1])
     else:
         break
-     
 for i in sorted(ans):
     print(i)
