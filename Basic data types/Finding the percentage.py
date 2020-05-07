@@ -1,5 +1,4 @@
 student = dict()
-
 inp = int(input())
 for i in range(inp):
     
