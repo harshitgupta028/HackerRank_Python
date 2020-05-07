@@ -1,7 +1,5 @@
 l1 = int(input())
-
 l2 = set(map(int, input().split()))
-
 l3 = int(input())
 
 for i in range(l3):
