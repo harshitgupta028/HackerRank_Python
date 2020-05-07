@@ -1,5 +1,4 @@
 l1 = int(input())
-
 for i in range(l1):
     l2 = int(input())
     A = set(map(int, input().split()))
