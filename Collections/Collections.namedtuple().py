@@ -1,4 +1,3 @@
-#inp_1 = int(input())
 s_list = list()
 index = 0
 for i in range(int(input())):
