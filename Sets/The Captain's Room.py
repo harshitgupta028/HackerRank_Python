@@ -1,4 +1,3 @@
-
 k = int(input())
 arr =list(map(int ,input().split()))
 inp1 = set(arr)

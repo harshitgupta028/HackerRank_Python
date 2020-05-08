@@ -1,8 +1,6 @@
 student = dict()
-
 inp = int(input())
 for i in range(inp):
-    
     l2 = input().split()
     name = l2[0]
     l2.remove(name)

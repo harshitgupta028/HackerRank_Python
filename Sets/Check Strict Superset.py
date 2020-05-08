@@ -1,4 +1,3 @@
-
 l1 = set(map(int, input().split()))
 l2 = int(input())
 

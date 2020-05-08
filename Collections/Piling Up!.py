@@ -1,7 +1,6 @@
 inp =int(input())
 
 for i in range(inp):
-    
     l1 = int(input())
     s1 = list(map(int, input().split()))
     
