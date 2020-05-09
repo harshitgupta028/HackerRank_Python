@@ -1,5 +1,4 @@
 from collections import OrderedDict
-
 dic = OrderedDict()
 for _ in range(int(input())):
     item, space, quantity = input().rpartition(' ')
