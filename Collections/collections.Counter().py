@@ -1,5 +1,4 @@
 from collections import Counter
-
 inp  = input()
 inp2 = Counter(list(map(int, input().split())))
 c=list(inp2.elements())

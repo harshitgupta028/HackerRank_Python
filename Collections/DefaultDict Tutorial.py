@@ -1,5 +1,4 @@
 from collections import defaultdict
-
 ls = list()
 d = defaultdict(list)
 A,*B = input().split()
