@@ -1,6 +1,7 @@
 lis  = list()
 
 for _ in range(int(input())):
+    
     perf,*values = input().strip().split()
     values = list(map(int, values))
     if perf == 'insert':
