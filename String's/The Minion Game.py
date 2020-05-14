@@ -4,7 +4,6 @@ def minion_game(string):
     vow = 'AEIOU' 
 
     for check in range(len(string)):
-
         if string[check] in vow:
             k_score = k_score + len(string)-check
         else:
