@@ -1,11 +1,9 @@
 st = input()
-
 print(any(ch.isalnum() for ch in st))
 print(any(ch.isalpha() for ch in st))
 print(any(ch.isdigit() for ch in st))
 print(any(ch.islower() for ch in st))
 print(any(ch.isupper() for ch in st))
-
 
 #                       Any
 # Returns true if any of the items is True. It returns False 
