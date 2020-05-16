@@ -3,7 +3,6 @@ def mutate_string(string, position, character):
     st[position] = character
     return("".join(st))
 
-
 if __name__ == '__main__':
     s = input()
     i, c = input().split()
