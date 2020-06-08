@@ -1,14 +1,4 @@
 import re
-
-S = input()
-k = input()
-
-pattern = re.compile(k)
-r = pattern.search(S)
-
-if not r: 
-    print("(-1, -1)")
-
-while r:
-    print("({}, {})".format(r.start(), r.end() - 1))
-    r = pattern.search(S,r.start() + 1)
+for i in range(int(input())):
+    email=input()
+    print(bool(re.match(r"[A-Z]+ \<[A-Za-z-._]*\@[a-z]+\.[a-z]+{,3}\>",email)))
