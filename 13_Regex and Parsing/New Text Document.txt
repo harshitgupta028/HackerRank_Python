@@ -1,4 +1,12 @@
-import re
-for i in range(int(input())):
-    email=input()
-    print(bool(re.match(r"[A-Z]+ \<[A-Za-z-._]*\@[a-z]+\.[a-z]+{,3}\>",email)))
+import re 
+for i in  range(int(input())):
+    c=input()
+    if c=="{":
+        while True:
+            color=input()
+            if color!="}":
+                che=re.findall(r"(#[0-9a-fA-F]{6}|#[0-9a-fA-F]{3})",color)
+                print(che)
+            else:
+                break
+    
