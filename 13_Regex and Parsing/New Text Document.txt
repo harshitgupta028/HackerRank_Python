@@ -1,12 +1,13 @@
-import re 
-for i in  range(int(input())):
-    c=input()
-    if c=="{":
-        while True:
-            color=input()
-            if color!="}":
-                che=re.findall(r"(#[0-9a-fA-F]{6}|#[0-9a-fA-F]{3})",color)
-                print(che)
-            else:
-                break
-    
+import re
+for i in range(int(input())):
+    uids="".join(sorted(input()))
+    print(uids)
+    if len(uids)==10:
+        uid=re.search(r"([0-9]{3,})(?!.*\1)*([A-Z]{2,})(?!.*\1)*$",uids)
+        print(uid.group())
+    else:
+        print("Invalid")
+    if uid=="True":
+        print("Valid")
+    #else:
+    #    print("Invalid")
